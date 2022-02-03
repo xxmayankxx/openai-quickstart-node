@@ -24,13 +24,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Not so friendly neighborhood chatbot</title>
+        <title>Your friendly neighborhood chatbot</title>
         <link rel="icon" href="/dog.png" />
       </Head>
 
       <main className={styles.main}>
         {/* <img src="/dog.png" className={styles.icon} /> */}
-        <h3>I'm not so friendly neighborhood chatbot. I run on Sarcasm++</h3>
+        <h3>I'm your friendly neighborhood chatbot. I run on Sarcasm++</h3>
                 <form onSubmit={onSubmit}>
           <input
             type="text"
